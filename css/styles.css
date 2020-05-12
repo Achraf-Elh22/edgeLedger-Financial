@@ -190,3 +190,14 @@ p {
 #who .who-img {
   background: url('../images/people.jpg') no-repeat center center/cover;
 }
+
+/* Our Clients */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
