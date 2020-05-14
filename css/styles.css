@@ -36,6 +36,11 @@ p {
   color: #93cb52;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -200,4 +205,28 @@ p {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Cantact Section */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact #map {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form .form-group label {
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
